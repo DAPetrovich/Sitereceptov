@@ -1,0 +1,101 @@
+[
+{
+  "model": "receptsite.ingredient",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-10-30T11:15:15.007Z",
+    "updated_at": "2021-10-30T11:15:15.007Z",
+    "nazvanie": "сахар"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 2,
+  "fields": {
+    "created_at": "2021-10-30T11:15:18.355Z",
+    "updated_at": "2021-10-30T11:15:18.355Z",
+    "nazvanie": "яйца"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 3,
+  "fields": {
+    "created_at": "2021-10-30T11:15:23.974Z",
+    "updated_at": "2021-10-30T11:15:23.974Z",
+    "nazvanie": "картошка"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 4,
+  "fields": {
+    "created_at": "2021-11-01T13:16:12.412Z",
+    "updated_at": "2021-11-01T13:16:12.412Z",
+    "nazvanie": "соль"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 5,
+  "fields": {
+    "created_at": "2021-11-01T13:16:30.875Z",
+    "updated_at": "2021-11-01T13:16:30.875Z",
+    "nazvanie": "лук зелёный"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 6,
+  "fields": {
+    "created_at": "2021-11-01T13:16:49.973Z",
+    "updated_at": "2021-11-01T13:16:49.973Z",
+    "nazvanie": "черный перец"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 7,
+  "fields": {
+    "created_at": "2021-11-01T13:17:27.924Z",
+    "updated_at": "2021-11-01T13:17:27.924Z",
+    "nazvanie": "рыба"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 8,
+  "fields": {
+    "created_at": "2021-11-01T13:17:33.409Z",
+    "updated_at": "2021-11-01T13:17:33.409Z",
+    "nazvanie": "свинина"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 9,
+  "fields": {
+    "created_at": "2021-11-01T13:18:46.317Z",
+    "updated_at": "2021-11-01T13:18:46.317Z",
+    "nazvanie": "мука"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 10,
+  "fields": {
+    "created_at": "2021-11-01T13:19:35.320Z",
+    "updated_at": "2021-11-01T13:19:35.320Z",
+    "nazvanie": "морковь"
+  }
+},
+{
+  "model": "receptsite.ingredient",
+  "pk": 11,
+  "fields": {
+    "created_at": "2021-11-01T13:19:44.414Z",
+    "updated_at": "2021-11-01T13:19:44.414Z",
+    "nazvanie": "свекла"
+  }
+}
+]
