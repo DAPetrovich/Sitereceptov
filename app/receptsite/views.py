@@ -48,7 +48,7 @@ def home(request):
 
     return render(
         request,
-        'receptsite/home.html', 
+        'home.html', 
         {   'default_select1'   : default_select1 , 
             'default_select2'   : default_select2,
             'select_bludo'      : List_bludo,       # отправляем на страницу список блюд
