@@ -20,6 +20,6 @@ import receptsite.views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", receptsite.views.home, name='home'),
+    path("",     receptsite.views.home, name='home'),
     path("home", receptsite.views.home, name="home"),
 ]
