@@ -21,6 +21,7 @@ class Bludo(TimeStampMixin):
 
     nazvanie = models.CharField("Название", max_length=50, null=False)
     prigotovlenie = models.CharField("Рецепт", max_length=500, null=False)
+    image =  models.CharField("Изображение", max_length=500, null=False)
 
     class Meta:
         app_label = "receptsite"
