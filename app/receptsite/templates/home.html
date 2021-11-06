@@ -47,13 +47,9 @@
                        
                         {% for el in result_select %}
                                <tr>
-                                    <td>{{ el.bludo.nazvanie }}</td>
-                                    <td>{{ el.bludo.prigotovlenie }} </td>
-                                    <td>
-                                        {% for item in el.ingredients %}
-                                        <span>{{item.nazvanie}}</span><span>,</span>
-                                        {% endfor %}
-                                    </td>
+                                    <td>{{ el.nazvanie }}</td>
+                                    <td>{{ el.prigotovlenie }} </td>
+                                    <td>{{ el.ingredients.all|join:", " }} </td>
                                  </tr>
                         {% endfor %}
                     </tbody>
