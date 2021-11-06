@@ -32,12 +32,14 @@
     <div class="container">
                 <table class="table table-hover js-table">
                     <colgroup>
-                        <col style="width: 15%;">
+                        <col style="width: 5%;">
+                        <col style="width: 10%;">
                         <col style="width: 60%;">
                         <col style="width: 25%;">
                     </colgroup>
                     <thead>
                         <tr>
+                            <th scope="col">Изображение</th>
                             <th scope="col">Название</th>
                             <th scope="col">Рецепт</th>
                             <th scope="col">Ингредиенты</th>
@@ -47,6 +49,7 @@
                        
                         {% for el in result_select %}
                                <tr>
+                                    <td><img src="{{ el.image }}" alt="альтернативный текст" width="80px"> </td>
                                     <td>{{ el.nazvanie }}</td>
                                     <td>{{ el.prigotovlenie }} </td>
                                     <td>{{ el.ingredients.all|join:", " }} </td>
