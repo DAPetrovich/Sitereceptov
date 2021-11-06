@@ -7,6 +7,7 @@ from receptsite.models import Bludo, Ingredient
 class ViewPageBludoAdmin(admin.ModelAdmin):
 
     list_display = (
+        "image",
         "nazvanie",
         "prigotovlenie",
     )
